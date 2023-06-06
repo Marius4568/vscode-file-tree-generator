@@ -4,7 +4,7 @@
 
 File Tree Generator is a Visual Studio Code extension that allows you to generate a tree-like structure of your files and directories in your workspace, and outputs it to a separate file.
 
-It offers the ability to ignore certain files as defined in the `.gitignore` file or by manually setting them in the extension settings. 
+It offers the ability to ignore certain files as defined in the `.gitignore` file or by manually setting them in the extension settings.
 
 ## Features
 
@@ -19,6 +19,33 @@ It offers the ability to ignore certain files as defined in the `.gitignore` fil
 
 - Visual Studio Code
 - Node.js
+
+### Installation
+
+#### VS Code Marketplace
+
+You can install this extension directly from the Visual Studio Code Marketplace:
+
+1. Open Visual Studio Code
+2. Go to the Extensions view (or press `Ctrl+Shift+X`)
+3. Search for `File Tree Generator`
+4. Click on `Install`
+
+#### Manual Installation
+
+Alternatively, you can build and install it from source:
+
+1. Clone this repository
+2. Run `npm install` to install all dependencies
+3. Run `npm run compile` to build the extension
+4. Open Visual Studio Code, go to the Extensions view, and click on the "..." menu on the top-right
+5. Choose `Install from VSIX...` and select the `.vsix` file that was created in the `dist` directory
+
+You can also load the extension in development mode:
+
+1. Clone this repository
+2. Open the repository in Visual Studio Code
+3. Press `F5` to start debugging. This will open a new VS Code window with the extension loaded.
 
 ## Usage
 
