@@ -1,8 +1,10 @@
 {
-  "name": "file-tree-generator",
-  "displayName": "File Tree Generator",
-  "description": "A VS Code extension that generates a file tree structure of a directory and outputs it to a separate file, while ignoring files as defined in .gitignore",
+"name": "vscode-file-tree-generator",
+"icon": "file-tree-generator-icon.png",
+  "displayName": "VSCode File Tree Generator",
+  "description": "A VS Code extension that generates a file tree structure of a directory and outputs it to a separate file...",
   "version": "0.0.1",
+  "publisher": "MutableUniverse",
   "repository": {
     "type": "git",
     "url": "https://github.com/Marius4568/vscode-file-tree-generator.git"
