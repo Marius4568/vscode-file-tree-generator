@@ -30,15 +30,13 @@ export function activate(context: vscode.ExtensionContext) {
       return;
     }
 
-    let outputPath = path.join(vscode.workspace.workspaceFolders[0].uri.fsPath, 'generated-tree.txt');
+// Generate the file tree
+let tree = generateTree(folder.fsPath, folder.fsPath, ig, includeFileContent);
 
-    // Clear the output file first
-    fs.writeFileSync(outputPath, '');
+vscode.workspace.openTextDocument({ content: tree, language: 'plaintext' }).then(doc => {
+  vscode.window.showTextDocument(doc, 1, false);
+});
 
-    // Generate the file tree
-    let tree = generateTree(folder.fsPath, folder.fsPath, ig, includeFileContent);
-
-    fs.writeFileSync(outputPath, tree);
   });
 
   context.subscriptions.push(disposable);
