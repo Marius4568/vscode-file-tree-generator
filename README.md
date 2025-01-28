@@ -2,9 +2,11 @@
 
 # File Tree Generator
 
-File Tree Generator is a Visual Studio Code extension that allows you to generate a tree-like structure of your files and directories in your workspace, and outputs it to a separate file.
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Support](https://img.shields.io/badge/☕-Buy_Me_A_Coffee-yellow.svg)](https://www.buymeacoffee.com/murbonas)
 
-It offers the ability to ignore certain files as defined in the `.gitignore` file or by manually setting them in the extension settings.
+File Tree Generator is a Visual Studio Code extension that helps you visualize and document your project structure. It generates an easy-to-read tree view of your files and directories, making it perfect for documentation, README files, or getting a clear overview of your project structure.
+
+It's highly customizable - you can include file contents, ignore specific patterns (using .gitignore syntax), and configure exactly what you want to see in your generated tree.
 
 ## Features
 
@@ -65,9 +67,23 @@ This extension contributes the following settings:
 - `file-tree-generator.ignorePatterns`: Enter file or directory patterns to ignore when generating file tree. Use `.gitignore` syntax. Default: `[".git", "node_modules", "package-lock.json"]`
 - `file-tree-generator.useGitignore`: Whether to ignore files specified in the `.gitignore` file. Default: `false`
 
+## ☕ Support the Project
+
+If you find this extension helpful, consider buying me a coffee! Your support helps maintain and improve the project.
+
+<a href="https://www.buymeacoffee.com/murbonas"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=murbonas&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+
 ## Contribute
 
-You can contribute to the development of this extension by submitting bug reports, feature requests, or pull requests on the repository.
+Have an idea for a new feature? Found a bug? Want to make the extension better? Your contributions are welcome!
+
+You can help in many ways:
+- 💡 Suggest new features or improvements
+- 🐛 Report bugs or issues
+- 📝 Improve documentation
+- 🧑‍💻 Submit pull requests
+
+All feedback and contributions are greatly appreciated! Feel free to open an issue on GitHub to start a discussion about your ideas.
 
 ## License
 
